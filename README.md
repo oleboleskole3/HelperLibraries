@@ -5,6 +5,8 @@ These are some short libraries i make to help myself.
 
 --> [reqSender.js](#reqSender.js)
 
+--> [Credits](#credits)
+
 
 <a name="ES6Arrayfunctions.js" />
 
@@ -41,3 +43,9 @@ getDataAsync('get', '/data.json', function(req) {
   console.log(data);
 });
 ```
+
+
+<a name="credits" />
+
+### Credits
+All of the minified scripts were made though [this](https://javascript-minifier.com) js minifier.
