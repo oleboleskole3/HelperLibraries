@@ -1,0 +1,1 @@
+Array.prototype.map=function(t){var r=[];return this.forEach(function(i,n){r.push(t(i,n,this))}),r},Array.prototype.filter=function(t){for(var r=this.slice(),n=this.length;n>=0;i--)t(this[n],n,this)||r.splice(n,1);return r},Array.prototype.reduce=function(t,r){var i=r;return this.forEach(function(r,n){i=t(i,r,n,this)}),i};
