@@ -1,0 +1,1 @@
+function getDataAsync(t,e,n){var a=new XMLHttpRequest;a.open(t,e),a.send(""),a.onreadystatechange=function(){4==this.readyState&&200==this.status&&n(a)}}function getDataSync(t,e){var n=new XMLHttpRequest;return n.open(t,e,!1),n.send(""),n}
