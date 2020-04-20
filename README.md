@@ -17,10 +17,10 @@ To use just link either the [ES6Arrayfunctions.js](http://oleboleskole3.github.i
 <a name="reqSender.js" />
 
 ### reqSender.js
-This library is made to easily send get/post/put/patch/detete reqests, it has both synchronous and asynchronous support
+This library is made to easily send get/post/put/patch/detete reqests, it has both synchronous and asynchronous support.
 It is also backwards compatible, since i had a hard time not using arrow functions and other things
 
-Remember to link either the long [reqSender.js](http://oleboleskole3.github.io/HelperLibraries/reqSender.js) or the minified [reqSendermin.js](http://oleboleskole3.github.io/HelperLibraries/reqSendermin.js) in your head tag
+Remember to link either [reqSender.js](http://oleboleskole3.github.io/HelperLibraries/reqSender.js) or the minified [reqSendermin.js](http://oleboleskole3.github.io/HelperLibraries/reqSendermin.js) in your head tag
 
 ##### Syntax
 
@@ -32,7 +32,7 @@ var data = JSON.parse(getDataSync('get', '/data.json').responseText);
 console.log(data)
 ```
 
-To send an asynchronous request to any url you use `getDataAsync(method : ('get' || 'post' || 'put' || 'patch' || 'delete'), url : String, callbackfn : function(reqest : XMLHttpRequest object with all of your data));`
+To send an asynchronous request to any url you use `getDataAsync(method : ('get' || 'post' || 'put' || 'patch' || 'delete'), url : String, callbackfn : function(request : XMLHttpRequest object with all of your data));`
 ###### Example:
 ```javascript
 // Send an asynchronous get reqest to '/data.json' and console.log it
