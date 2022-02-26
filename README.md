@@ -1,3 +1,5 @@
+# (NOTE: This is very old, and the functions aren't even helpful compared to other libraries that do the same. I don't even think the ES6Arrayfunctions.js files worked at all. Im only keeping this so you can look/laugh at my past mistakes)
+
 # HelperLibraries
 These are some short libraries i make to help myself.
 
